@@ -1,0 +1,18 @@
+# Rust build artifacts (ALWAYS ignore)
+target/
+*.pdb
+Cargo.lock
+# Nota: Cargo.lock só se ignora em LIBS. Em bins/apps queremos versioná-lo.
+# Por agora ignoramos; reverteremos esta regra no Módulo 4.
+
+# Editor e sistema operativo
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Obsidian vault (se o tiveres aqui dentro — recomendado NÃO ter)
+.obsidian/
