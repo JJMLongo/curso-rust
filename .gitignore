@@ -1,9 +1,9 @@
 # Rust build artifacts (ALWAYS ignore)
 target/
 *.pdb
-Cargo.lock
-# Nota: Cargo.lock só se ignora em LIBS. Em bins/apps queremos versioná-lo.
-# Por agora ignoramos; reverteremos esta regra no Módulo 4.
+**/*.rs.bk
+
+# Cargo.lock é versionado de propósito em bins/apps (regra R22)
 
 # Editor e sistema operativo
 .vscode/
